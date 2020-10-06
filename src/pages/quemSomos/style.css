@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  background-image: linear-gradient(to right, #297e92, #6dc6c4);
+  width: 100%;
+  height: 80%;
+  display: flex;
+  
+  
+}
+.box1 {
+  width: 50%;
+  height: 100%;
+  padding-top: 5rem;
+  margin-left: 8rem;
+ 
+}
+
+.box2 {
+  width: 50%;
+  height: 100%;
+  
+}
+
+.botao {
+  margin: 0.5rem;
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  color: #fff;
+  width: 5rem;
+}
+
+#foto1 {
+  width: 100%;
+  padding-top: 2rem;
+}
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+.paragrafo{
+ 
+  font-size: 1.5rem;
+  color: #fff;
+  
+}
+
+.cursos {
+  background-image: url("https://i.pinimg.com/564x/7e/a4/dd/7ea4dd97dc27c3d295240a977fb8ed07.jpg");
+  height: 70vh;
+}
+.caixa1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.caixa1 {
+  width: 30%;
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.texto1 {
+  padding: 0.8rem;
+  color: #fff;
+}
+
+.texto2 {
+  padding-top: 0.8rem;
+  width: 100%;
+  font-family: "Concert One", cursive;
+}
+.caixa2 {
+  background-image: linear-gradient(to right, #2c5364, #0f2027, #203a43);
+  width: 30%;
+  height: 20vh;
+  color: #fff;
+  border-right: 1px solid black;
+  text-align: center;
+  display: flex;
+ padding-top: 2rem;
+}
+.iconi {
+  width: 40px;
+
+ 
+}
+.icon1 {
+  margin-top: 2.5rem;
+  font-size: 60%;
+
+  text-align: center;
+ 
+}
+.caixa3-4-5-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+}
+.caixa3 {
+  height: 20vh;
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid black;
+}
+.caixa4 {
+  height: 20vh;
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid black;
+}
+.caixa5 {
+  height: 20vh;
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid black;
+}
+.caixa6 {
+  height: 20vh;
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid black;
+}
+#sobreMim {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  background-image: linear-gradient(to right, #2c5364, #0f2027, #203a43);
+  justify-content: center;
+  align-items: center;
+}
+
+.user1 {
+  background-color: #ffff;
+  width: 300px;
+  height: 70vh;
+  text-align: center;
+}
+.user2 {
+  background-color: #f3f4;
+  width: 300px;
+  height: 70vh;
+  margin: 1rem;
+  text-align: center;
+  
+}
+.user3 {
+  background-color: yellowgreen;
+  width: 300px;
+  height: 70vh;
+  margin: 1rem;
+  text-align: center;
+}
+.user4 {
+  background-color: #f3f4;
+  width: 300px;
+  height: 70vh;
+  text-align: center;
+}
+#foto {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.bntc {
+  margin: 0.5rem;
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  color: #fff;
+  width: 5rem;
+  
+}

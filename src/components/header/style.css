@@ -1,0 +1,57 @@
+#logo {
+  padding: 0.5rem;
+  width: 80px;
+  height: 80px;
+  
+}
+
+
+
+.lista-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+ padding-left: 8rem;
+  
+ 
+}
+header{
+  display: flex;
+  width:84.4rem;
+  background-image: linear-gradient( #297e92, #6dc6c4);
+ 
+  
+}
+
+ul li {
+  list-style: none;
+  margin: 1rem;
+  display: inline;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  height: 10rem;
+}
+a:hover{
+  color: black;
+}
+.search {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 0px solid;
+  margin: 0.8rem;
+  outline: none;
+  font-size: 20px;
+}
+button {
+  height: 2rem;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  color: white;
+  border: 0px;
+  outline: none;
+}
