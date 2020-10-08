@@ -151,6 +151,13 @@ h1 {
   border-right: 1px solid black;
 }
 
+.caixa7 {
+  height: 20vh;
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid black;
+}
+
 #sobreMim {
   width: 100%;
   display: flex;

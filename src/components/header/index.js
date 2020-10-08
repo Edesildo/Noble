@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link} from 'react-router-dom'
-//import { withRouter } from "react-router";
+import { withRouter } from "react-router";
 
 
 import NobleLogo from '../../assets/img/nobleLogo.png'
@@ -13,13 +13,12 @@ import './style.css'
     texto:''
   }
   pesquisarAmigo =(event)=>{
-   /* this.props.history.push({
+    event.preventDefault()
+    const{history}=this.props
+    history.push({
     pathname:'/lista',
     state:{texto:this.state.texto}})
-  */
-   
-  this.props.history.push('/login')
- 
+      
   }
 
   render () {
@@ -49,5 +48,4 @@ import './style.css'
     )
   }
 }
-//export default  withRouter(Header);
-export default Header;
+export default  withRouter(Header);

@@ -11,6 +11,7 @@ import Jessica from '../../assets/img/jessica.jpeg'
 import Design from '../../assets/img/design.png'
 import Linkedin from '../../assets/img/linkedin.png'
 import Git from '../../assets/img/git.jpeg'
+import Api from '../../assets/img/api-rest.jpeg'
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
@@ -76,6 +77,12 @@ export default class Perfil extends Component {
                 <h3>REACT</h3>
               </div>
             </div>
+            <div className='caixa7 caixaN'>
+              <div className='icon1'>
+                <img className='iconi' src={Api} />
+                <h3>Api rest</h3>
+              </div>
+              </div>
           </section>
         </main>
 

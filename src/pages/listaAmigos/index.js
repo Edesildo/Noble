@@ -23,6 +23,7 @@ export default class Lista extends Component {
         (pessoa => pessoa.nome.indexOf(texto)>-1)
         this.setState({pessoas:pessoasPesquisadas})
       }
+      
  }
 
  
@@ -40,12 +41,12 @@ export default class Lista extends Component {
       imageUrl:amigos.picture.medium,
       nat:amigos.nat,
       idade:amigos.dob.age
-      
      })
    }
    
    this.setState({pessoas:arrayAmigos,pessoasOriginal:arrayAmigos});
    console.log(this.state.pessoas);
+   
   }
   render(){
 
