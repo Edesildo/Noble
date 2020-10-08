@@ -25,7 +25,7 @@ export default class Feed extends Component {
      <div className='container-post fluid-container'>
        
         <div className='post-header'>
-          <h1>Feed</h1>
+          <p>Feed</p>
         </div>
 
         <div className='post-wrap'>

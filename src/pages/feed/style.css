@@ -5,19 +5,19 @@
 }
 
 body {
-  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  
   background: linear-gradient(180deg, rgba(41, 126, 146, 1) 0%, rgba(109, 198, 196, 1) 100%);
-  padding-bottom: 20px;
 
 }
 
 .fluid-container {
   width: 90%;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 .container-post {
   margin-top: 60px;
+  margin: auto auto;
 }
 
 @media only screen and (min-width: 900px) {
@@ -28,13 +28,17 @@ body {
 
 /* Friends header*/
 .post-header {
+ 
+  width: 100%;
   padding: 9px 10px 30px 10px;
-  background: #f3f4f6;
+  background-color:#e4e6eb;
+  
 }
 
-.post-header h1 {
+.post-header p {
   font-size: 1.25rem;
-  color: #000
+  color: #000;
+  font-weight: 700;
 }
 
 .post-wrap {

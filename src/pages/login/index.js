@@ -5,6 +5,7 @@ import iconeSenha from '../../assets/img/mostrarSenha.png'
 import iconeAddUser from '../../assets/img/adicionarUsuario.png'
 
 import './style.css'
+import Swal from 'sweetalert2'
 
 export default class Login extends Component {
   constructor() {
@@ -22,7 +23,13 @@ export default class Login extends Component {
     if (this.state.login === "admin" && this.state.senha === "star") {
       this.props.history.push("/feed");
     } else {
-      this.setState({ error: "Usário e/ou Senha inválido" });
+      Swal.fire({
+        title: 'Error!',
+        text: 'Usuário ou senha inválido',
+        icon: 'error',
+        
+      })
+      
     }
   }
 

@@ -9,11 +9,20 @@ import './style.css'
 export default class Lista extends Component {
   
   state = {
-    pessoas:[]
+    pessoas:[],
+    pessoasOriginal:[]
   };
 
  componentDidMount(){
    this.carregarAmigos();
+   if(this.props && this.props.location 
+      && this.props.location.state 
+      && this.props.location.state.texto){
+        let {texto}=this.props.location.state
+        let pessoasPesquisadas=this.state.pessoasOriginal.filter
+        (pessoa => pessoa.nome.indexOf(texto)>-1)
+        this.setState({pessoas:pessoasPesquisadas})
+      }
  }
 
  
@@ -35,7 +44,7 @@ export default class Lista extends Component {
      })
    }
    
-   this.setState({pessoas:arrayAmigos});
+   this.setState({pessoas:arrayAmigos,pessoasOriginal:arrayAmigos});
    console.log(this.state.pessoas);
   }
   render(){
@@ -45,12 +54,15 @@ export default class Lista extends Component {
      <div className="container-Header">
        <Header/>
       
-      <div className="container">
-      
+      <div className="fluid-container bg-white-and-flex">
+
+      <div className='post-amigos'>
+          <p className='amigos'>Amigos</p>
+        </div>
       {this.state.pessoas.map((item, index) => (
         
      
-       <div id="caixa" key={index}>
+       <div className="caixa" key={index}>
           <img
             className="img-friends"
             src={item.imageUrl}
@@ -64,8 +76,8 @@ export default class Lista extends Component {
           <p id="nacionalidade">Nacionalidade: {item.nat}</p><br></br>
          
           </div>        
-          <div classNameName='friend-button-status'>
-          <button>amigos</button>
+          <div className='friend-button-status'>
+          <button>amigo</button>
           </div>
         </div>
         
