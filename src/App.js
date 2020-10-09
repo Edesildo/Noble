@@ -24,19 +24,22 @@ export default function App() {
   const [theme, setTheme] = useStateWithLocalStorage("@Theme");
 
   const themeToggler = () => {
+    
     theme === "light" ? setTheme("dark") : setTheme("light");
     localStorage.clear();
     localStorage.setItem("@Theme", theme);
+
   };
 
   return (
   
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme }>
       <>
         <GlobalStyles />
         <div className="App">
              <div class="switch__container">
                 <input
+                  checked={theme === "dark" ? true : false}
                   id="switch-shadow"
                   class="switch switch--shadow"
                   type="checkbox"
