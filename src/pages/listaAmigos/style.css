@@ -124,16 +124,17 @@ button {
 input.search {
   height: 2.3rem;
   border-radius: 10px;
-  background-color: lightseagreen;
+  
   color: black;
   border: 0px;
   outline: none;
-  padding:0rem 10rem 0rem 10rem;
+
   text-align: center;
 }
 
 #search-bar {
-  
-  padding: 2rem;
+  display: flex;
+  width: 50%;
+  align-items: center;
 
 }

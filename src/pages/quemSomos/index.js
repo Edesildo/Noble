@@ -52,7 +52,7 @@ export default class Perfil extends Component {
               </div>
             </div>
           </div>
-          <section className='caixa3-4-5-6'>
+          <section className='caixa3-4-5-6-7'>
             <div className='caixa3 caixaN'>
               <div className='icon1'>
                 <img className='iconi' src={Html5} />
@@ -80,7 +80,7 @@ export default class Perfil extends Component {
             <div className='caixa7 caixaN'>
               <div className='icon1'>
                 <img className='iconi' src={Api} />
-                <h3>Api rest</h3>
+                <h3>API REST</h3>
               </div>
               </div>
           </section>

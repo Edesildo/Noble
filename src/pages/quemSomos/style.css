@@ -104,55 +104,55 @@ h1 {
 .iconi {
   width: 40px;
 
-
 }
 
 .icon1 {
-  margin-top: 2.5rem;
+  
   font-size: 60%;
-
   text-align: center;
+  margin-top: 2.5rem;
 
 }
 
-.caixa3-4-5-6 {
+.caixa3-4-5-6-7 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 60%;
   margin-left: 20%;
+ 
 }
 
 .caixa3 {
-  height: 20vh;
+  height: 23vh;
   background-color: #fff;
   width: 25%;
   border-right: 1px solid black;
 }
 
 .caixa4 {
-  height: 20vh;
+  height: 23vh;
   background-color: #fff;
   width: 25%;
   border-right: 1px solid black;
 }
 
 .caixa5 {
-  height: 20vh;
+  height: 23vh;
   background-color: #fff;
   width: 25%;
   border-right: 1px solid black;
 }
 
 .caixa6 {
-  height: 20vh;
+  height: 23vh;
   background-color: #fff;
   width: 25%;
   border-right: 1px solid black;
 }
 
 .caixa7 {
-  height: 20vh;
+  height: 23vh;
   background-color: #fff;
   width: 25%;
   border-right: 1px solid black;
@@ -227,7 +227,9 @@ h1 {
 
 .fluid-container {
   width: 90%;
+  
   margin: 0 auto;
+
 }
 
 @media only screen and (min-width: 900px) {

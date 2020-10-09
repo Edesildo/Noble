@@ -70,7 +70,7 @@ export default class Lista extends Component {
     return (
       <div className="container-Header">
         <Header />
-
+        
         <div className="fluid-container bg-white-and-flex">
           <br />
           <br />
@@ -82,9 +82,13 @@ export default class Lista extends Component {
               onChange={this.handlerChanged}
               placeholder="Pesquisar Amigos"
             />
+            <div>
+            <div className="btn_pesquisa_amigo">
             <button id="btn_pesquisa" onClick={this.pesquisarAmigo}>
               Pesquisar
             </button>
+            </div>
+            </div>
           </div>
           <br />
           <br />
