@@ -54,7 +54,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   width: 49%;
   margin-bottom: 12px;
   border: 1px solid #eaeaea;

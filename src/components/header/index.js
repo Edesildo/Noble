@@ -21,15 +21,18 @@ import './style.css'
         <header>
           <div className="fluid-container nav">
             <div className='logoHeader'>
-              <img id='logo' src={NobleLogo} />
+              <img id='logo' title="logo Noble" src={NobleLogo} alt="logo"/>
             </div>
-              
-              <ul className="menu-links">
-                <li><Link to='/feed'>Home</Link></li>
-                <li><Link to='/lista'>Listar amigos</Link></li>
-                <li><Link to='/quem-somos'>Quem Somos</Link></li>
-                <li><Link to='/'>Sair</Link></li>
+
+              <div> 
+                <ul className="menu-links">
+                <li title="Tela inicial"><Link to='/feed'>Home</Link></li>
+                <li title="Ver lista de amigos"><Link to='/lista'>Listar amigos</Link></li>
+                <li title="Desenvolvedores"><Link to='/quem-somos'>Quem Somos</Link></li>
+                <li title="sair da pagina"><Link to='/'>Sair</Link></li>
               </ul>
+              </div>
+             
           </div>
          
         </header>

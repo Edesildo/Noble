@@ -26,14 +26,6 @@
 
 .box {
   width: 49%;
-
-
-}
-
-.box {
-  width: 49%;
-
-
 }
 
 .botao {
@@ -123,40 +115,14 @@ h1 {
  
 }
 
-.caixa3 {
+.caixa3, .caixa4, .caixa5, .caixa6, .caixa7 {
   height: 23vh;
   background-color: #fff;
   width: 25%;
   border-right: 1px solid black;
 }
 
-.caixa4 {
-  height: 23vh;
-  background-color: #fff;
-  width: 25%;
-  border-right: 1px solid black;
-}
 
-.caixa5 {
-  height: 23vh;
-  background-color: #fff;
-  width: 25%;
-  border-right: 1px solid black;
-}
-
-.caixa6 {
-  height: 23vh;
-  background-color: #fff;
-  width: 25%;
-  border-right: 1px solid black;
-}
-
-.caixa7 {
-  height: 23vh;
-  background-color: #fff;
-  width: 25%;
-  border-right: 1px solid black;
-}
 
 #sobreMim {
   width: 100%;
@@ -171,30 +137,18 @@ h1 {
   
 }
 
-.user1 {
+.user1, .user4{
 
   width: 300px;
   text-align: center;
 }
 
-.user2 {
+.user2, .user3 {
 
   width: 300px;
   margin: 1rem;
   text-align: center;
 
-}
-
-.user3 {
-
-  width: 300px;
-  margin: 1rem;
-  text-align: center;
-}
-
-.user4 {
-  width: 300px;
-  text-align: center;
 }
 
 .user {

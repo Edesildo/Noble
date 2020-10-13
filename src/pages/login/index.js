@@ -79,7 +79,7 @@ export default class Login extends Component {
             </div>
           </div>
           <div className='btn1'>
-            <button onClick={this.fazerLogin} className='btn' type='submit'>Entrar</button>
+            <button onClick={this.fazerLogin} className='btn' type='submit' title="ir para feed">Entrar</button>
           </div>
         </div>
 

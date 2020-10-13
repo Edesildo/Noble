@@ -34,7 +34,7 @@ export default class Perfil extends Component {
             </div>
             <div className='box'>
               {' '}
-              <img id='foto1' src={Design} />
+              <img id='foto1' src={Design}/>
             </div>
           </div>
          
@@ -55,31 +55,31 @@ export default class Perfil extends Component {
           <section className='caixa3-4-5-6-7'>
             <div className='caixa3 caixaN'>
               <div className='icon1'>
-                <img className='iconi' src={Html5} />
+                <img className='iconi' src={Html5} alt="icone html5"/>
                 <h3>HTML</h3>
               </div>
             </div>
             <div className='caixa4 caixaN'>
               <div className='icon1'>
-                <img className='iconi' src={Css3} />
+                <img className='iconi' src={Css3} alt=" icone Css3"/>
                 <h3>CSS</h3>
               </div>
             </div>
             <div className='caixa5 caixaN'>
               <div className='icon1'>
-                <img className='iconi' src={javaScript} />
+                <img className='iconi' src={javaScript} alt="icone Java-Script"/>
                 <h3>JAVA_SCRIPT</h3>
               </div>
             </div>
             <div className='caixa6 caixaN'>
               <div className='icon1'>
-                <img className='iconi' src={react} />
+                <img className='iconi' src={react} alt=" icone react"/>
                 <h3>REACT</h3>
               </div>
             </div>
             <div className='caixa7 caixaN'>
               <div className='icon1'>
-                <img className='iconi' src={Api} />
+                <img className='iconi' src={Api} alt="icone Api-Rest"/>
                 <h3>API REST</h3>
               </div>
               </div>
@@ -88,44 +88,45 @@ export default class Perfil extends Component {
 
         <section id='sobreMim'>
           <div className='user1 user'>
-            <img id='foto' src={Edesildo} />
+            <img id='foto' src={Edesildo} alt="Desenvolvedor Edesildo"/>
             
             <a target='_black' href='https://www.linkedin.com/in/edesildo-wanderley-43442a1ab/'>
-              <img className='git'src={Linkedin}/></a>
+              <img className='git'src={Linkedin} alt="Linkedin"/></a>
            
               <a target='_black' href='https://github.com/Edesildo'>
-                <img className='git'src={Git}/></a>
+                <img className='git'src={Git} alt="GitHub"/></a>
           </div>
          
           <div className='user2 user'>
             
-            <img id='foto' src={Iara} />
+            <img id='foto' src={Iara} alt="Desenvolvedor Iara"/>
             
             <a target='_black' href='https://www.linkedin.com/in/iara-m-4240911a2/'>
-              <img className='git'src={Linkedin}/></a>
+              <img className='git'src={Linkedin} alt="Linkedin"/></a>
            
               <a target='_black' href='https://github.com/iarawatson2'>
-                <img className='git'src={Git}/></a>
+                <img className='git'src={Git} alt="GitHub"/></a>
             
           </div>
          
           <div className='user3 user'>
                 
-                <img id='foto' src={Gabriel} />
+                <img id='foto' src={Gabriel} alt="Desenvolvedor Gabriel"/>
                 <a target='_black' href='https://www.linkedin.com/in/gabrielantonio37185b1ab/'>
-                  <img className='git'src={Linkedin}/></a>
+                  <img className='git'src={Linkedin} alt="Linkedin"/></a>
+
                 <a target='_black' href='https://github.com/Gabriel-antoni'>
-                  <img className='git'src={Git}/></a>
+                  <img className='git'src={Git} alt="GitHub"/></a>
               
                 
           </div>
           <div className='user4 user'>
-            <img id='foto' src={Jessica} />
+            <img id='foto' src={Jessica} alt="Desenvolvedor Jessica"/>
             <a target='_black' href='https://www.linkedin.com/in/j%C3%A9ssica-tavares-da-silva-2158431ab/'>
-              <img className='git'src={Linkedin}/></a>
+              <img className='git'src={Linkedin} alt="Linkedin"/></a>
            
               <a target='_black' href='https://github.com/jessicatavaressilva'>
-                <img className='git'src={Git}/></a>
+                <img className='git'src={Git} alt="GitHub"/></a>
           </div>
         </section>
         </div>

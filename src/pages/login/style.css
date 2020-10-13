@@ -9,9 +9,7 @@ body {
     display: flex;      
 }
 
-#error {
-    color: red;
-}
+
 
 #container1 {
 
@@ -23,7 +21,6 @@ body {
     background-image: url(../../assets/img/papelDeParede.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .boxx {
@@ -55,10 +52,7 @@ body {
     margin: .8rem;
     text-align: center;
     font-size: 1rem;
-    border: none;
-
-
-
+    outline: none;
 }
 
 .inputs #senha {
@@ -67,8 +61,7 @@ body {
     margin: .8rem;
     text-align: center;
     font-size: 1rem;
-
-
+    outline: none;
 }
 
 .icone1 {

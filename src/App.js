@@ -37,7 +37,7 @@ export default function App() {
       <>
         <GlobalStyles />
         <div className="App">
-             <div class="switch__container">
+             <div class="switch__container"  title="Modo Dark">
                 <input
                   checked={theme === "dark" ? true : false}
                   id="switch-shadow"

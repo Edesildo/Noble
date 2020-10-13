@@ -68,7 +68,7 @@ export default class Feed extends Component {
               <div className='user-post-profile-pic'>
                 <img src={Tistatorn} alt='' />
                   <div className='user-post-info'>
-                    <span>TecMundo</span>
+                    <span>Tistorm</span>
                     <span className='post-time'>53 min</span>
                   </div>
               </div>
@@ -103,7 +103,7 @@ export default class Feed extends Component {
               <div className='user-post-profile-pic'>
                 <img src={Angular} alt='' />
                   <div className='user-post-info'>
-                    <span>TecMundo</span>
+                    <span>TechTop</span>
                     <span className='post-time'>53 min</span>
                   </div>
               </div>
@@ -138,7 +138,7 @@ export default class Feed extends Component {
               <div className='user-post-profile-pic'>
                 <img src={Vue} alt='' />
                   <div className='user-post-info'>
-                    <span>TecMundo</span>
+                    <span>Geekhunter</span>
                     <span className='post-time'>53 min</span>
                   </div>
               </div>
@@ -173,7 +173,7 @@ export default class Feed extends Component {
               <div className='user-post-profile-pic'>
                 <img src={Channel} alt='' />
                   <div className='user-post-info'>
-                    <span>TecMundo</span>
+                    <span>Chanel</span>
                     <span className='post-time'>53 min</span>
                   </div>
               </div>
@@ -208,7 +208,7 @@ export default class Feed extends Component {
               <div className='user-post-profile-pic'>
                 <img src={Amorim} alt='' />
                   <div className='user-post-info'>
-                    <span>TecMundo</span>
+                    <span>AmorimTecnologia</span>
                     <span className='post-time'>53 min</span>
                   </div>
               </div>
@@ -243,7 +243,7 @@ export default class Feed extends Component {
               <div className='user-post-profile-pic'>
                 <img src={Found} alt='' />
                   <div className='user-post-info'>
-                    <span>TecMundo</span>
+                    <span>Foundation.zurb</span>
                     <span className='post-time'>53 min</span>
                   </div>
               </div>
