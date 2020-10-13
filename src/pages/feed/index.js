@@ -33,7 +33,7 @@ export default class Feed extends Component {
         <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={tecMundo} alt='' />
+                <img src={tecMundo} alt='Logo tec mundo' />
                   <div className='user-post-info'>
                     <span>TecMundo</span>
                     <span className='post-time'>53 min</span>
@@ -66,7 +66,7 @@ export default class Feed extends Component {
           <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={Tistatorn} alt='' />
+                <img src={Tistatorn} alt='Logo Tistatorn' />
                   <div className='user-post-info'>
                     <span>Tistorm</span>
                     <span className='post-time'>53 min</span>
@@ -101,7 +101,7 @@ export default class Feed extends Component {
       <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={Angular} alt='' />
+                <img src={Angular} alt='Logo angular' />
                   <div className='user-post-info'>
                     <span>TechTop</span>
                     <span className='post-time'>53 min</span>
@@ -136,7 +136,7 @@ export default class Feed extends Component {
       <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={Vue} alt='' />
+                <img src={Vue} alt='Logo vue' />
                   <div className='user-post-info'>
                     <span>Geekhunter</span>
                     <span className='post-time'>53 min</span>
@@ -149,7 +149,7 @@ export default class Feed extends Component {
             </p>
 
           <div className='user-post-img'>
-            <img src={Vue} alt='' />
+            <img src={Vue} alt='Logo do vue' />
 
           <div className='post-actions'>
             <span>
@@ -171,7 +171,7 @@ export default class Feed extends Component {
       <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={Channel} alt='' />
+                <img src={Channel} alt='Logo channel' />
                   <div className='user-post-info'>
                     <span>Chanel</span>
                     <span className='post-time'>53 min</span>
@@ -206,7 +206,7 @@ export default class Feed extends Component {
       <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={Amorim} alt='' />
+                <img src={Amorim} alt='Logo amorin' />
                   <div className='user-post-info'>
                     <span>AmorimTecnologia</span>
                     <span className='post-time'>53 min</span>
@@ -219,7 +219,7 @@ export default class Feed extends Component {
             </p>
 
           <div className='user-post-img'>
-            <img src={Amorim} alt='' />
+            <img src={Amorim} alt='Logo amorin' />
 
           <div className='post-actions'>
             <span>
@@ -241,7 +241,7 @@ export default class Feed extends Component {
       <div className='post-box'>
             <div className='user-post-header'>
               <div className='user-post-profile-pic'>
-                <img src={Found} alt='' />
+                <img src={Found} alt='Logo found' />
                   <div className='user-post-info'>
                     <span>Foundation.zurb</span>
                     <span className='post-time'>53 min</span>

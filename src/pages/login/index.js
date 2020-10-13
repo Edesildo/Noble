@@ -49,7 +49,7 @@ export default class Login extends Component {
         <div className='boxx'>
           <div className='texto'>
             <h2>Fazer login</h2>
-            <img id='icone-topo' src={iconeAddUser} />
+            <img id='icone-topo' alt='incone user' src={iconeAddUser} />
             <p>Conecte-se com seus amigos</p>
             {this.state.error && <p id="error">{this.state.error}</p>}
 
@@ -57,13 +57,13 @@ export default class Login extends Component {
           <div className='inputs'>
             <div>
               <div className='icone1'>
-                <img id='icones' src={iconeEntrar} />
+                <img id='icones' alt='icone entrar' src={iconeEntrar} />
                 <input type='text' value={this.state.login} name='email' id='login'
                   placeholder='E-mail' onChange={(event) => this.setState({ login: event.target.value })} />
               </div>
 
               <div className='icone2'>
-                <img id='icones' src={iconeSenha} />
+                <img id='icones' alt='icone senha' src={iconeSenha} />
                 <input type='password' name='senha'
                   id='senha' placeholder='Senha'
                   value={this.state.senha}

@@ -34,7 +34,7 @@ export default class Perfil extends Component {
             </div>
             <div className='box'>
               {' '}
-              <img id='foto1' src={Design}/>
+              <img id='foto1' alt='imagem de fundo' src={Design}/>
             </div>
           </div>
          
