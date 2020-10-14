@@ -88,7 +88,7 @@ export default class Perfil extends Component {
 
         <section id='sobreMim'>
           <div className='user1 user'>
-            <img id='foto' src={Edesildo} alt="Desenvolvedor Edesildo"/>
+            <img id='foto'  src={Edesildo} alt="Desenvolvedor Edesildo"/>
             
             <a target='_black' href='https://www.linkedin.com/in/edesildo-wanderley-43442a1ab/'>
               <img className='git'src={Linkedin} alt="Linkedin"/></a>

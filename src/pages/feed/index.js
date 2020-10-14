@@ -41,8 +41,9 @@ export default class Feed extends Component {
               </div>
             </div>
             <p className='post-message'>
-              Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento
-              de interfaces de usuário e aplicativos de página única.
+            TecMundo é um site sobre tecnologia mantido pela NZN. 
+            A empresa também é responsável pelos sites Baixaki, 
+            Voxel, Minha Série e Mega Curioso, entre outros.
             </p>
             <div className='user-post-img'>
               <img src={tecMundo} alt='post'/>
