@@ -88,7 +88,7 @@ export default class Perfil extends Component {
             <div className="user1 user">
               <img id="foto" src={Edesildo} alt="Desenvolvedor Edesildo" />
 
-              <a target="_black" href="https://meucurriculowanderley.000webhostapp.com/">
+              <a target="_black" href="https://edesildocurriculo.000webhostapp.com/">
                 <img className="cv" src={Curriculo} alt="Curriculo" />
               </a>
             </div>

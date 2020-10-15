@@ -20,7 +20,7 @@ export default class Login extends Component {
   fazerLogin = (event) => {
 
     event.preventDefault();
-    if (this.state.login === "admin" && this.state.senha === "star") {
+    if (this.state.login === "admin@gmail.com" && this.state.senha === "star") {
       this.props.history.push("/feed");
     } else {
       Swal.fire({

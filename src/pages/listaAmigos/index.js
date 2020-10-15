@@ -7,29 +7,33 @@ import Footer from "../../components/footer";
 import "./style.css";
 
 export default class Lista extends Component {
+ 
   state = {
     pessoas: [],
     pessoasOriginal: [],
     texto: "",
   };
 
+  
   componentDidMount() {
-    this.carregarAmigos();
+   this.carregarAmigos();
   }
 
+  
   async carregarAmigos() {
     let response = await Api.get("/?results=20");
     let listAmigos = response.data.results;
-
+    
     let arrayAmigos = [];
     for (let amigos of listAmigos) {
-      arrayAmigos.push({
+        arrayAmigos.push({
         id: amigos.id,
         nome: amigos.name.first + " " + amigos.name.last,
         imageUrl: amigos.picture.medium,
         nat: amigos.nat,
         idade: amigos.dob.age,
       });
+     
     }
 
     this.setState({
@@ -37,6 +41,7 @@ export default class Lista extends Component {
       pessoasOriginal: arrayAmigos,
       texto: "",
     });
+   
   }
 
   pesquisarAmigo = (event) => {
